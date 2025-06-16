@@ -21,12 +21,14 @@ class AppbarU extends StatelessWidget implements PreferredSizeWidget {
     this.cancelPausePlayer,
   }) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     return AppBar(
       actions: [
         TextButton(onPressed: onTextModeToggle, child: Text("Text")),
         TextButton(
+
           onPressed: () {
             cancelPausePlayer?.call();
             onShapeSelected(DrawingMode.circle); // Utiliser DrawingMode

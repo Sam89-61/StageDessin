@@ -17,9 +17,9 @@ import 'package:sport_stage/class/shape/polygoneFill/element/zoom.dart';
 import 'package:sport_stage/class/shape/polygoneVoid/element/circle.dart';
 import 'package:sport_stage/class/shape/polygoneVoid/element/rectangle.dart';
 import 'package:sport_stage/class/shape/text/textU.dart';
+import 'package:sport_stage/class/timelineU.dart';
 import 'class/shape/polygoneFill/element/circle_player.dart';
-import 'package:chewie/chewie.dart';
-
+import 'package:sport_stage/class/Timeline.dart';
 import 'widget/appBarU.dart';
 
 import 'class/draw.dart';
@@ -41,7 +41,11 @@ class _videoImportState extends State<videoImport> {
   bool _isInitialized = false;
   String time = "";
   File? file;
-
+  TimelineU timeline = TimelineU(
+    current: Duration.zero,
+    start: Duration.zero,
+    end: Duration.zero,
+  );
   bool textMode = false;
   late CalquesManager calquesManager;
   double TimeV =1;
@@ -817,7 +821,9 @@ await _player!.play();
                       final time = snapshot.data ?? Duration.zero;
                       final duration = _player!.state.duration;
                       duree = time;
-
+                      timeline.current = duree;
+                      timeline.start = Duration.zero;
+                      timeline.end = duration;
                       if (duration.inMilliseconds <= 0) {
                         return const Padding(
                           padding: EdgeInsets.all(20.0),
@@ -841,8 +847,8 @@ await _player!.play();
 
                       return Column(
                         children: [
-                          Slider(value: duree.inMilliseconds.toDouble(),
-                           max: duration.inMilliseconds.toDouble(),min: Duration(seconds: 0).inMilliseconds.toDouble(), onChanged: (newValue) {
+                          Slider(value: timeline.current.inMilliseconds.toDouble(),
+                           max: timeline.end.inMilliseconds.toDouble(),min: timeline.start.inMilliseconds.toDouble(), onChanged: (newValue) {
                             duree=Duration(milliseconds: newValue.toInt());
                             print("essaie");
                             _player?.seek(duree);

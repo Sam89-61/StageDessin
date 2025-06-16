@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows
+# Install script for directory: C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,3 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

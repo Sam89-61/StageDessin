@@ -18,11 +18,10 @@ import 'package:sport_stage/class/shape/polygoneVoid/element/circle.dart';
 import 'package:sport_stage/class/shape/polygoneVoid/element/rectangle.dart';
 import 'package:sport_stage/class/shape/text/textU.dart';
 import 'class/shape/polygoneFill/element/circle_player.dart';
+import 'package:chewie/chewie.dart';
 
 import 'widget/appBarU.dart';
-import 'class/trackTimeline.dart';
-import 'class/clipTimeline.dart';
-import 'widget/track_timeline.dart';
+
 import 'class/draw.dart';
 import 'class/shape/shape.dart';
 import 'drawingmode.dart';
@@ -45,7 +44,7 @@ class _videoImportState extends State<videoImport> {
 
   bool textMode = false;
   late CalquesManager calquesManager;
-
+  double TimeV =1;
   DrawingMode selectedMode = DrawingMode.mouse;
   Duration duree = Duration(seconds: 0);
   int? currentPointIndex;
@@ -272,14 +271,13 @@ class _videoImportState extends State<videoImport> {
       });
       _player = Player();
       _controller = VideoController(_player!);
-
+     
       await _player!.open(Media(file!.path));
 
       setState(() {
         _isInitialized = true;
       });
-
-      await _player!.play();
+await _player!.play();
     }
   }
 
@@ -839,31 +837,16 @@ class _videoImportState extends State<videoImport> {
                         return "$minutes:$seconds";
                       }
 
-                      final tracks = [
-                        trackTimeline(
-                          name: "La vidéo",
-                          color: Colors.blue,
-                          clip: [
-                            clipTimeline(
-                              name: "Clip principal",
-                              start: Duration.zero,
-                              duration: duration,
-                              color: Colors.blue.shade300,
-                            ),
-                          ],
-                        ),
-                      ];
+                      
 
                       return Column(
                         children: [
-                          MultiTrackTimeline(
-                            totalDuration: duration,
-                            currentPosition: time,
-                            tracks: tracks,
-                            onSeek: (newtime) {
-                              _player!.seek(newtime);
-                            },
-                          ),
+                          Slider(value: duree.inMilliseconds.toDouble(),
+                           max: duration.inMilliseconds.toDouble(),min: Duration(seconds: 0).inMilliseconds.toDouble(), onChanged: (newValue) {
+                            duree=Duration(milliseconds: newValue.toInt());
+                            print("essaie");
+                            _player?.seek(duree);
+                          }),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [

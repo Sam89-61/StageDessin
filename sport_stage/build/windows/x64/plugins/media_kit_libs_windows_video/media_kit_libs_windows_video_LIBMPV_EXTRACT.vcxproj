@@ -18,9 +18,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2A406426-CCA2-3CFE-9890-68455B13D29B}</ProjectGuid>
+    <ProjectGuid>{54C99663-3580-3F30-ADD2-C789B08C747D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>media_kit_libs_windows_video_LIBMPV_EXTRACT</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -66,17 +66,17 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\libmpv
+cd C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\libmpv
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
 if %errorlevel% neq 0 goto :cmEnd
-xcopy "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
+xcopy "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
 if %errorlevel% neq 0 goto :cmEnd
-rmdir "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include" /S /Q
+rmdir "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include" /S /Q
 if %errorlevel% neq 0 goto :cmEnd
-ren "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" "include"
+ren "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" "include"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -98,17 +98,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\libmpv
+cd C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\libmpv
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
 if %errorlevel% neq 0 goto :cmEnd
-xcopy "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
+xcopy "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
 if %errorlevel% neq 0 goto :cmEnd
-rmdir "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include" /S /Q
+rmdir "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include" /S /Q
 if %errorlevel% neq 0 goto :cmEnd
-ren "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" "include"
+ren "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" "include"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,17 +130,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-cd C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\libmpv
+cd C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\libmpv
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E tar xzf "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/mpv-dev-x86_64-20230924-git-652a1dd.7z"
 if %errorlevel% neq 0 goto :cmEnd
-xcopy "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
+xcopy "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include/mpv" "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" /E /H /C /I
 if %errorlevel% neq 0 goto :cmEnd
-rmdir "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/include" /S /Q
+rmdir "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/include" /S /Q
 if %errorlevel% neq 0 goto :cmEnd
-ren "C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/libmpv/mpv" "include"
+ren "C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/libmpv/mpv" "include"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -151,11 +151,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\windows\flutter\ephemeral\.plugin_symlinks\media_kit_libs_windows_video\windows\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\juju4\Documents\StageDessin\sport_stage\windows\flutter\ephemeral\.plugin_symlinks\media_kit_libs_windows_video\windows\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -164,11 +164,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,11 +177,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/media_kit_libs_windows_video/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/media_kit_libs_windows_video/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,15 +190,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{8FBD7077-D9D1-3681-9EC8-5E7681098180}</Project>
+    <ProjectReference Include="C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{F5B1A57C-D2F4-3EB8-996B-294B401D70F7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

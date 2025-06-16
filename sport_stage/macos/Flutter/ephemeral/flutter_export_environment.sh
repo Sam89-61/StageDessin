@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\flutter"
-export "FLUTTER_APPLICATION_PATH=C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage"
+export "FLUTTER_APPLICATION_PATH=C:\Users\juju4\Documents\StageDessin\sport_stage"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"

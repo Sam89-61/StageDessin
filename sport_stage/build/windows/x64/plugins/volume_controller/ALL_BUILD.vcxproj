@@ -21,9 +21,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D59CA400-784C-3201-A65E-E31A952B0E67}</ProjectGuid>
+    <ProjectGuid>{594B62AC-9866-3672-AECC-E4F872AFBE70}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\windows\flutter\ephemeral\.plugin_symlinks\volume_controller\windows\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\juju4\Documents\StageDessin\sport_stage\windows\flutter\ephemeral\.plugin_symlinks\volume_controller\windows\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/juju4/Documents/StageDessin/sport_stage/windows/flutter/ephemeral/.plugin_symlinks/volume_controller/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/plugins/volume_controller/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,21 +127,22 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\volume_controller\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{8FBD7077-D9D1-3681-9EC8-5E7681098180}</Project>
+    <ProjectReference Include="C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{F5B1A57C-D2F4-3EB8-996B-294B401D70F7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\volume_controller\volume_controller_plugin.vcxproj">
-      <Project>{06A964EE-5270-3EC8-8AA7-257AAADEFCF4}</Project>
+    <ProjectReference Include="C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\volume_controller\volume_controller_plugin.vcxproj">
+      <Project>{7644C4B6-A383-3BEC-A8C2-036F3C92A52C}</Project>
       <Name>volume_controller_plugin</Name>
     </ProjectReference>
   </ItemGroup>

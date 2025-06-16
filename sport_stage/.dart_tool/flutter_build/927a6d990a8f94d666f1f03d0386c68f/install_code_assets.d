@@ -1,0 +1,1 @@
+ C:\\Users\\juju4\\Documents\\StageDessin\\sport_stage\\.dart_tool\\flutter_build\\927a6d990a8f94d666f1f03d0386c68f\\native_assets.json: 

@@ -1,6 +1,6 @@
-^C:\USERS\JUJU4\DOCUMENTS\FLUTTER_PROJET\DESSINSPORT\DESSINSPORT\SPORT_STAGE\WINDOWS\RUNNER\CMAKELISTS.TXT
+^C:\USERS\JUJU4\DOCUMENTS\STAGEDESSIN\SPORT_STAGE\WINDOWS\RUNNER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\x64\Release\media_kit_libs_windows_video_LIBMPV_EXTRACT</FullPath>
+      <FullPath>C:\Users\juju4\Documents\StageDessin\sport_stage\build\windows\x64\plugins\media_kit_libs_windows_video\x64\Release\media_kit_libs_windows_video_LIBMPV_EXTRACT</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

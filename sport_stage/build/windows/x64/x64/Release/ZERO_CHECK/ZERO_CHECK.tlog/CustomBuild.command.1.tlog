@@ -1,6 +1,6 @@
-^C:\USERS\JUJU4\DOCUMENTS\FLUTTER_PROJET\DESSINSPORT\DESSINSPORT\SPORT_STAGE\BUILD\WINDOWS\X64\CMAKEFILES\B4DF53569FEA16154D5AC1A1C6402770\GENERATE.STAMP.RULE
+^C:\USERS\JUJU4\DOCUMENTS\STAGEDESSIN\SPORT_STAGE\BUILD\WINDOWS\X64\CMAKEFILES\57E3BD8A3B6CF9E2E3A4091B0CA7CA99\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/windows -BC:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/juju4/Documents/Flutter_Projet/DessinSport/DessinSport/sport_stage/build/windows/x64/sport_stage.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juju4/Documents/StageDessin/sport_stage/windows -BC:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/juju4/Documents/StageDessin/sport_stage/build/windows/x64/sport_stage.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

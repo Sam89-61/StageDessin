@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\juju4\Documents\Flutter_Projet\DessinSport\DessinSport\sport_stage\build\windows\x64\CMakeFiles\b4df53569fea16154d5ac1a1c6402770\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7ED91C52-9DF4-397F-8BE7-64020465025C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

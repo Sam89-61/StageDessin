@@ -8,11 +8,11 @@ import 'package:media_kit/media_kit.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:sport_stage/class/calque/calque_manager.dart';
 
-import 'package:sport_stage/class/timelineU.dart';
+import 'package:sport_stage/class/timeline/timelineU.dart';
 import 'widget/appBarU.dart';
 import "class/manager/drawing_manager.dart";
 import 'package:sport_stage/class/shape/text/textU.dart';
-import 'class/draw.dart';
+import 'class/draw/draw.dart';
 import 'class/shape/shape.dart';
 import 'drawingmode.dart';
 import 'dart:async';
